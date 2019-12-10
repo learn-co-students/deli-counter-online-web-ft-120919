@@ -13,5 +13,13 @@ def line(deli)
   puts result
 end 
 
-def take_a_number(name)
+def take_a_number(deli, name)
+  deli << name 
+  puts "Welcome, #{name}. You are number #{deli.size} in line."
+  deli
+end 
+
+def now_serving(deli)
+  if deli.size == 0 
+    
 end 
