@@ -16,7 +16,7 @@ def take_a_number(katz_deli, name)
     puts("Welcome, Ada. You are number 1 in line.")
     katz_deli << name
   elsif katz_deli.length > 0
-    puts("Welcome, Grace. You are number #{katz_deli.count + 1} in line.")
+    puts("Welcome, #{name}. You are number #{katz_deli.count + 1} in line.")
     katz_deli << name
   end 
 end
